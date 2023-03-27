@@ -1,0 +1,24 @@
+Overall goal:
+app that takes some instruction and produces lorem ipsum for the user.
+User can specify how many paragraphs of Laura Ipsum they would like to have generated.
+user input - select the number of words they would like
+app output - pargarphs of Laura ipsum displayed to user meeting their requirement
+
+JS concepts:
+field where user enters number of paragraphs they want generated.
+example '5' is the input.
+JS will need and empty variable at first that is then populated by the 5.
+
+<!-- Receiving the input -->
+let intake = document.getelementbyID.(TEXTBOXID).value
+
+this box will be an empty field that can accept integers, and the submit send the intake somewhere.
+will need basic form validation 
+<form>
+<input type="text" name="number">
+<input type=(submit) value="submit">
+</form>
+
+<!-- utilizing the intake value to tell us how many pagraphs to generate and instert into the dom -->
+
+
