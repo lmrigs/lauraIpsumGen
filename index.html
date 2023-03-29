@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Laurica Ipsom Generator</title>
-        <meta name="description" content="A simple tool that allows placeholder to be producted">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
 
-        
-        
-        <script src="main.css" async defer></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laurica Ipsom Generator</title>
+    <meta name="description" content="A simple tool that allows placeholder to be producted">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="body-content">
+        <h1>Laura Ipsum Generator</h1>
+        <h3>Tired of boring Lorem Ipsum? Try Laura Ipsum!</h3>
+        <div id="generator">
+            <form id="form-fields">
+                <label for="number-input">How many paragraphs?</label>
+                <input type="number" name="number-input" id="number-input" placeholder="5" required min="1" max="9">
+                <button type="submit" class="button">Hit Me!</button>
+            </form>
+            <article>
+                <p id="laura-output">
+                </p>
+            </article>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>

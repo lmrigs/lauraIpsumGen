@@ -1,0 +1,15 @@
+Overall goal:
+app that takes some instruction and produces lorem ipsum for the user.
+User can specify how many paragraphs of Laura Ipsum they would like to have generated.
+user input - select the number of words they would like
+app output - pargarphs of Laura ipsum displayed to user meeting their requirement
+
+JS concepts:
+- have variable that can receive the button input
+- once variable has an integer assignment, and event of button click has been performed,if statements can be evaluated. For example, if const number = 4, article.innerHTML = ""
+- text is stored in an array variable, and if statement evaluates which array indexes to be inserted into html
+- error/alert to pup up if user enters 0, a negative integer, or more than 10.
+
+<!-- utilizing the intake value to tell us how many pagraphs to generate and instert into the dom -->
+
+
