@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100%;
     background-image: linear-gradient(to bottom right, rgb(207, 46, 194), rgb(188, 217, 222));
 }
 
@@ -16,12 +17,16 @@ body {
 
 
 h1 {
-    font: 400 4rem 'Pacifico', serif;
-    margin: 0;
+    font: 400 3rem 'Pacifico', serif;
+    margin: 2px;
+    text-align: center;
+    line-height: 3.8rem;
 }
 
 h3 {
-    font: 300 2rem tahoma, sans-serif;
+    font: 300 1.5rem tahoma, sans-serif;
+    margin: 1.8rem;
+    text-align: center;
 }
 
 p {
@@ -29,7 +34,7 @@ p {
 }
 
 label {
-    font: 300 1.6rem tahoma, sans-serif;
+    font: 300 1.3rem tahoma, sans-serif;
 }
 
 button {
@@ -41,7 +46,7 @@ button {
 
 input[type="number"]:focus {
     outline: none;
-  }
+}
 
 input#number-input {
     height: 1.4rem;
@@ -53,6 +58,10 @@ label,
 button,
 input {
     margin: 0.5rem;
+}
+
+form#form-fields {
+    text-align: center;
 }
 
 div#generator {
